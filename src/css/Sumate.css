@@ -1,0 +1,35 @@
+
+.Sumate {
+    background-color: #043B59;
+    background-image: url('../img/sumateFondo1.png'), url('../img/sumateFondo2.png'), url('../img/sumateFondo3.png');
+    background-position: left bottom, right top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 30%,30%,30%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.Sumate h1{
+    margin:0;
+    align-self: center;
+    font-size: 66px;
+    margin-top:3%;
+    color:#FDFE00;
+
+
+}
+
+.Sumate button {
+    align-self: flex-end;
+    width: 405px;
+    height: 134px;
+    border-radius: 36px;
+    font-size: 27px;
+    margin-top: 10%;
+    margin-right: 15%;
+    background-color: #F6F69E;
+    color:#043B59;
+}

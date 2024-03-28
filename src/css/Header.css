@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    background-color: #012F48;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 1vh; 
+  }
+  
+  .logos {
+    display: flex;
+  
+  }
+  
+  .logos img{
+  
+    max-width: 3vh;
+    height: auto;
+  }
+  
