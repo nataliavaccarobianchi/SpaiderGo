@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+}
+.Sumate {
+    background-color: #043B59;
+    background-image: url('../img/sumateFondo1.png'), url('../img/sumateFondo2.png'), url('../img/sumateFondo3.png');
+    background-position: left bottom, right top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 30%,30%,0%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.Sumate h1{
+    margin:0;
+    align-self: center;
+    font-size: 66px;
+    margin-top:3%;
+    color:#FDFE00;
+
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 15%;
+}
+
+#QuieroSerSpaider {
+    width: 405px;
+    height: 134px;
+    border-radius: 36px;
+    font-size: 27px;
+    margin-top: 10%;
+    background-color: #F6F69E;
+    color:#043B59;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    }
+#QuieroSerSpaider:hover {
+    background-color: #043B59; /* Change color on hover */
+    color: #F6F69E;
+}
+
+.auto {
+    align-self: flex-end;
+    width: 205px;
+    height: 67px;
+    border-radius: 18px;
+    font-size: 27px;
+    margin-top: 10%;
+    background-color: #F6F69E;
+    color:#043B59;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+}
+.auto:hover {
+    background-color: #043B59; /* Change color on hover */
+    color: #F6F69E;
+}
+#Auto{
+    margin-right: 2%;
+}
+.hide {
+    display: none;
+}
+
+.info {
+    background-color: #F6F69E;
+    color:#043B59;
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px 0; /* Adjust as needed */
+    border-radius: 5px; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+}
+
+.info textarea{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    resize: none;
+}
+
+.submit {
+    background-color: #043B59;
+    color: #F6F69E;
+    border: none; /* Remove border */
+    border-radius: 25px; /* Make the button round */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 18px; /* Increase font size */
+    cursor: pointer; /* Change cursor on hover */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 1.5px; /* Increase spacing between letters */
+    transition: all 0.5s ease; /* Add a transition effect */
+}
+
+.submit:hover {
+    background-color: #F6F69E; /* Change color on hover */
+    color: #043B59;
+}
