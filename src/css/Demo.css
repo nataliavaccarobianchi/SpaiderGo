@@ -1,0 +1,61 @@
+.Demo{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+
+}
+
+.box{
+    background-color: #FDFE00;
+    max-width: fit-content;
+    display: flex;
+    padding: 1%;
+}
+
+.botonesDemo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: max-content;
+    background-color: #F6F69E;
+    
+}
+.botonesDemo button {
+    background-color: #F6F69E; /* Green background */
+    border:#043B59; /* Remove borders */
+    color: #043B59; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Mouse pointer on hover */
+    transition-duration: 0.4s; /* Transition effects */
+}
+
+.botonesDemo button:hover {
+    background-color: #FDFE00; 
+    color: #043B59;
+}
+.botonesDemo button.active {
+    background-color: #FDFE00; 
+    color: #043B59;
+}
+.botonesDemo button img{
+    height: 60px;
+}
+
+.DemoTitle{
+    background-color: #F6F69E;
+    padding: 3%;
+}
+
+.DemoTitle h1 {
+    color: #043B59;
+    margin-top: 0%;
+    font-size: 80px;
+
+
+}

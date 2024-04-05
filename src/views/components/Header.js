@@ -1,10 +1,10 @@
 import React from "react";
-import './css/Header.css';
-import instagram from "./img/instagramLogo.png";
-import whatsapp from "./img/WhatsappLogo.png";
-import linkedin from "./img/linkedInLogo.png";
-import spaiderlogo from './img/SpaiderGoLogo.png';
-import ingresar from "./img/BotonIngresar.png";
+import '../../css/Header.css';
+import instagram from "../../img/instagramLogo.png";
+import whatsapp from "../../img/WhatsappLogo.png";
+import linkedin from "../../img/linkedInLogo.png";
+import spaiderlogo from '../../img/SpaiderGoLogo.png';
+import ingresar from "../../img/BotonIngresar.png";
 
 
 

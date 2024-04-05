@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Sumate.css"
+import "../../css/Sumate.css"
 
 export default function sumate() {
     const handleClick1 = () => {
