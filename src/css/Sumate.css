@@ -5,6 +5,10 @@ body {
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .Sumate {
     background-color: #043B59;
@@ -47,6 +51,10 @@ body {
     transition: all 0.5s;
     cursor: pointer;
     border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     }
 #QuieroSerSpaider:hover {
     background-color: #043B59; /* Change color on hover */

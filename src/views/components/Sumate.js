@@ -28,22 +28,6 @@ export default function sumate() {
             <button id="QuieroSerSpaider" onClick={handleClick1}>QUIERO SER SPAIDER</button>
             <button className="hide" id="Auto" onClick={handleClick2}>Auto</button>
             <button className="hide" id="Camion" onClick={handleClick2}>Camion</button>
-            <form className="hide" id="InfoAuto">
-                <label htmlFor="nombre">Nombre y Apellido:</label>
-                <textarea id="details" name="details"></textarea>
-
-                <label htmlFor="vehiculo">Vehiculo (modelo y año):</label>
-                <textarea id="details" name="details"></textarea>
-
-                <label htmlFor="numero">Numero de telefono:</label>
-                <textarea id="details" name="details"></textarea>
-
-                <label htmlFor="mail">Mail:</label>
-                <textarea id="details" name="details"></textarea>
-
-
-                <button className="submit" type="submit">Submit</button>
-            </form>
             </div>
         </div>
     );

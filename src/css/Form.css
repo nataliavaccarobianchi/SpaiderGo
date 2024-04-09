@@ -1,0 +1,68 @@
+.Container{
+    background: 
+        linear-gradient(90deg, #012F48 50%, #012F48 50%),
+        url('../img/deliveryguy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+    width: 100%;
+    height: 100vh;
+    padding: 0% 2%;
+    display: grid;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Delivery{
+    position: relative;
+    left: 2%;
+    height: 80%;
+}
+
+.Form {
+    background-color: #012F48;
+    padding: 5%; /* Increase padding to give more space around the content */
+    border-radius: 20px; /* Increase border-radius to make the corners more rounded */
+    width: 20%; /* Increase width to make the form wider */
+    height: 60%; /* Add a height to make the form taller */
+    position: absolute;
+    top: 10%; /* Adjust top and right to position the form over the background image */
+    left: 55%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a box-shadow to give the form a 3D effect */
+}
+
+.Form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; /* Add this line to distribute space evenly between the inputs */
+    height: 100%; /* Add this line to make the inputs take up the full height of the form */
+}
+
+.Form input {
+    width: 80%; /* Decrease width to give more space around the inputs */
+    font-size: 1.5em;
+    padding: 10px; /* Add padding to make the inputs taller */
+    border-radius: 10%;
+    background-color: #F6F69E;
+}
+
+.Form button {
+    width: 80%; /* Decrease width to give more space around the button */
+    font-size: 1.5em;
+    padding: 10px; /* Add padding to make the button taller */
+    background-color: #F6F69E; /* Change background color to match the background image */
+    color: 012F48; /* Change text color to white */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Add border-radius to make the corners more rounded */
+    cursor: pointer; /* Add cursor pointer to indicate the button is clickable */
+    transition: all 0.3s; /* Add transition to make the hover effect smoother */
+}
+
+.Form button:hover {
+    background-color: #012F48; /* Change background color on hover */
+    color: #F6F69E; /* Change text color on hover */
+}   

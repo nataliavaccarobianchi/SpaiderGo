@@ -2,6 +2,10 @@
     background-color: #043B59;
     color: #FDFE00;
     padding: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .Servicios h1{
