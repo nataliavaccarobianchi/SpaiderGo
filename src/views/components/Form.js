@@ -7,7 +7,6 @@ import delivery from "../../img/deliveryguy.png"
 export default function Form() {
     return (
         <div className="Container">
-            <img src={delivery} alt="delivery" className="Delivery"></img>
             <div className="rectangulo">
             <div className="Form">
                 <form>

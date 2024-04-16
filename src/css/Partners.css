@@ -11,6 +11,8 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    width: inherit;
+
 }
 
 
@@ -40,3 +42,26 @@
 .brand img:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+    .Partners {
+      padding: 2vh;
+      width: 100vmax;
+    }
+    .PartnersLogos img{
+        width: 20vh;
+        height: auto;
+        margin: 4% 2% 3% ; 
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .Partners {
+      padding: 2vh;
+      width: 100vmax;
+    }
+    .PartnersLogos img{
+        width: 20vh;
+        margin: 4% 2% 3% ; 
+    }
+  }

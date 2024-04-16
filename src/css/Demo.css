@@ -68,3 +68,28 @@
 .box img {
     width: 1000px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .DemoTitle {
+      padding: 2vh;
+      width: 100vmax;
+    }
+    .box img{
+        height: 50vh;
+        width: auto;
+    }
+    
+  }
+
+  @media screen and (min-width: 769px) {
+    .DemoTitle {
+      padding: 2vh;
+      width: 100vmax;
+    }
+    .box img{
+        height: 50vh;
+        width: auto;
+    }
+  }

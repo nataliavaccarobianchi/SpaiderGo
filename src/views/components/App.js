@@ -12,11 +12,13 @@ export default function App() {
     return (
         <div>
             <Header/>
+            <div className="container">
             <Element name="sumate"><Sumate/></Element>
             <Element name="demo"><Demo/></Element>
             <Element name="servicios"><Servicios/></Element>
             <Element name="partners"><Partners/></Element>
-            <Footer/>
+            <Footer/> 
+            </div>
             {/* <Form/> */}
         </div>
     );

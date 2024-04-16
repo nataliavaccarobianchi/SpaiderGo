@@ -9,6 +9,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
 }
 .Sumate {
     background-color: #043B59;
@@ -16,11 +17,13 @@ body {
     background-position: left bottom, right top, right bottom;
     background-repeat: no-repeat;
     background-size: 30%,30%,0%;
-    width: 100%;
+    width: 100vw;
     height: 500px;
     display: flex;
     flex-direction: column;
     padding: 30px;
+    width: inherit;
+
 }
 
 .Sumate h1{
@@ -123,4 +126,20 @@ body {
 .submit:hover {
     background-color: #F6F69E; /* Change color on hover */
     color: #043B59;
+
 }
+
+
+@media screen and (max-width: 768px) {
+    .Sumate {
+      padding: 2vh;
+      width: 100vmax;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .Sumate {
+      padding: 2vh;
+      width: 100vmax;
+    }
+  }

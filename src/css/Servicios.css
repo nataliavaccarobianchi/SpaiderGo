@@ -6,6 +6,8 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    width: inherit;
+
 }
 
 .Servicios h1{
@@ -25,3 +27,29 @@
     width: 250px;
     margin: 4% 2% 3% ; 
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    .Servicios {
+      padding: 2vh;
+      width: 100vmax;
+    }
+    .ServiciosLogos img{
+        width: 20vh;
+        height: auto;
+        margin: 4% 2% 3% ; 
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .Servicios {
+      padding: 2vh;
+      width: 100vmax;
+    }
+    .ServiciosLogos img{
+        width: 20vh;
+        margin: 4% 2% 3% ; 
+    }
+  }

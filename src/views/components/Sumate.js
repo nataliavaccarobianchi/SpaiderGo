@@ -27,7 +27,8 @@ export default function sumate() {
             <div className="botones">
             <button id="QuieroSerSpaider" onClick={handleClick1}>QUIERO SER SPAIDER</button>
             <button className="hide" id="Auto" onClick={handleClick2}>Auto</button>
-            <button className="hide" id="Camion" onClick={handleClick2}>Camion</button>
+            <button className="hide" id="Camion" onClick={handleClick2}>Utilitario</button>
+            {/* moto */}
             </div>
         </div>
     );
