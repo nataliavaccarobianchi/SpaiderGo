@@ -6,20 +6,19 @@ import Demo from "./Demo";
 import Partners from "./Partners";
 import Servicios from "./Servicios";
 import Footer from "./Footer";
-import Form from "./Form";
+import Form from "./Form-Utilitario";
 
 export default function App() {
     return (
         <div>
-            {/* <Header/>
+            <Header/>
             <div className="container">
             <Element name="sumate"><Sumate/></Element>
             <Element name="demo"><Demo/></Element>
             <Element name="servicios"><Servicios/></Element>
             <Element name="partners"><Partners/></Element>
             <Footer/> 
-            </div> */}
-            <Form/>
+            </div>
         </div>
     );
 }
