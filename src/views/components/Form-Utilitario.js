@@ -14,14 +14,14 @@ export default function Form() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_x8wfrp4', 'template_4icltgf', form.current, {
+      .sendForm('service_x8wfrp4', 'template_sxppmut', form.current, {
         publicKey: 'y_CLF_lbe7k_KhpNu',
       })
       .then(
         () => {
           console.log('SUCCESS!');
           window.alert('¡La postulación fue exitosa!');
-          form.current.reset(); // Reset the form
+          form.current.reset(); 
 
         },
         (error) => {
