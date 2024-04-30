@@ -19,8 +19,6 @@ export default function sumate() {
     const handleClick2 = () => {
         document.getElementById('Auto').classList.replace('auto', 'hide');
         document.getElementById('Camion').classList.replace('auto', 'hide');
-        
-        history.push("/form-auto");
 
 
     };
