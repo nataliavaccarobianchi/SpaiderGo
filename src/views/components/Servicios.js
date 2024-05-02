@@ -10,7 +10,7 @@ export default function Servicios(){
             <h1>Nuestros Servicios</h1>
             <div className="ServiciosLogos">
                 <img src={envios} alt="Envios Flex"/>
-                <img src={atencion} alt="Atencion 24hs"/>
+                <img src={atencion} alt="Atención Telefónica"/>
                 <img src={seguimiento} alt="Seguimiento paquete"/>
             </div>
         </div>

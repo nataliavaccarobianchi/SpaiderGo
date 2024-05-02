@@ -11,13 +11,13 @@ export default function Footer() {
     return (
         <header className="header">
             <div className="logos">
-            <a href="https://www.instagram.com/spaidergo/">
+            <a href="https://www.instagram.com/spaidergo?igsh=c3Y1cWVrN213eDRw&utm_source=qr">
                 <img src={instagram} alt="gotoinstagram" />
             </a>
-            <a href="https://www.instagram.com/spaidergo/">
+            <a href="https://www.instagram.com/spaidergo?igsh=c3Y1cWVrN213eDRw&utm_source=qr">
                 <img src={whatsapp} alt="gotowhatsapp" />
             </a>
-            <a href="https://www.instagram.com/spaidergo/">
+            <a href="https://www.instagram.com/spaidergo?igsh=c3Y1cWVrN213eDRw&utm_source=qr">
                 <img src={linkedin} alt="gotolinkedin" />
             </a>
             </div>

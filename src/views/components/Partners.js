@@ -9,7 +9,7 @@ export default function Servicios(){
     });
     return (
         <div className="Partners">
-                <h1>Nuestros Partners</h1>
+                <h1>Nuestros Clientes</h1>
                 <div className="PartnersLogos">
                     {marcas.map((marca, i) => (
                         <div className="brand" key={i}>

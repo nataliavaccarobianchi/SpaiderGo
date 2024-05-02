@@ -13,7 +13,7 @@ body {
 }
 .Sumate {
     background-color: #043B59;
-    background-image: url('../img/sumateFondo1.png'), url('../img/sumateFondo2.png'), url('../img/sumateFondo3.png');
+    background-image: url('../img/sumateFondo1.svg'), url('../img/sumateFondo2.png'), url('../img/sumateFondo3.png');
     background-position: left bottom, right top, right bottom;
     background-repeat: no-repeat;
     background-size: 30%,30%,0%;
