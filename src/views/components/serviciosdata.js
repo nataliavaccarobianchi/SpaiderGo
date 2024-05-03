@@ -1,61 +1,65 @@
-import sell2ship from "../../img/sell2ship.png";
-import pickit from "../../img/pickit.png";
+import Randstad from "../../img/Clientes/Randstad.svg"
+import Trencadis from "../../img/Clientes/Trencadis.svg"
+import Inculto from "../../img/Clientes/Inculto.svg"
+import TiendaGo from "../../img/Clientes/Tienda-Go.svg"
+import MaisonAubele from "../../img/Clientes/Maison-Aubele.svg"
+import Dkama from "../../img/Clientes/D-kama.svg"
+import Docuprint from "../../img/Clientes/Docuprint.svg"
+import DeVentas from "../../img/Clientes/De-ventas.svg"
+import ColorSublime from "../../img/Clientes/Color-Sublime.svg"
+import Carol from "../../img/Clientes/Carol.svg"
+
 const data = [
     {
         name: "Randstad",
         img: Randstad,
-        url: "https://sell2ship.com"
+        url: "https://www.randstad.com.ar/"
     },
     {
         name: "Trencadis",
         img: Trencadis,
-        url: "https://pickit.com.ar/pickit-para-ecommerce.html?utm_source=google&utm_source=adwords&utm_medium=cpa&utm_medium=ppc&utm_campaign=sellers&utm_campaign=&utm_content=pickit&utm_term=pickit&ctf_src=g&ctf_net=adwords&ctf_mt=b&ctf_grp=159762670018&ctf_ver=1&ctf_cam=21002735190&ctf_kw=pickit&ctf_acc=6727245662&ctf_ad=690354960933&ctf_tgt=kwd-271332333&gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphnHOmMUbsiWOcbtGJ0LJtD-EKB6U8pz6vVKjDmkRXMvV2Isah5aGYMaAiXYEALw_wcB"
+        url: "https://trencadis.com.ar/"
     },
     {
         name: "Inculto",
         img: Inculto,
-        url: "https://sell2ship.com"
+        url: "https://www.vallisto.com/es/"
     },
     {
         name: "Tienda-Go",
-        img: Tienda-Go,
-        url: "https://pickit.com.ar/pickit-para-ecommerce.html?utm_source=google&utm_source=adwords&utm_medium=cpa&utm_medium=ppc&utm_campaign=sellers&utm_campaign=&utm_content=pickit&utm_term=pickit&ctf_src=g&ctf_net=adwords&ctf_mt=b&ctf_grp=159762670018&ctf_ver=1&ctf_cam=21002735190&ctf_kw=pickit&ctf_acc=6727245662&ctf_ad=690354960933&ctf_tgt=kwd-271332333&gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphnHOmMUbsiWOcbtGJ0LJtD-EKB6U8pz6vVKjDmkRXMvV2Isah5aGYMaAiXYEALw_wcB"
-    },
+        img: TiendaGo,
+        url: "https://tiendago.com.ar/"
+    }, 
     {
         name: "Maison-Aubele",
-        img: Maison-Aubele,
-        url: "https://sell2ship.com"
+        img: MaisonAubele,
+        url: "https://maisonaubele.com/"
     },
     {
         name: "D-kama",
-        img: D-kama,
-        url: "https://pickit.com.ar/pickit-para-ecommerce.html?utm_source=google&utm_source=adwords&utm_medium=cpa&utm_medium=ppc&utm_campaign=sellers&utm_campaign=&utm_content=pickit&utm_term=pickit&ctf_src=g&ctf_net=adwords&ctf_mt=b&ctf_grp=159762670018&ctf_ver=1&ctf_cam=21002735190&ctf_kw=pickit&ctf_acc=6727245662&ctf_ad=690354960933&ctf_tgt=kwd-271332333&gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphnHOmMUbsiWOcbtGJ0LJtD-EKB6U8pz6vVKjDmkRXMvV2Isah5aGYMaAiXYEALw_wcB"
+        img: Dkama,
+        url: "https://dkama.com.ar/"
     },
     {
         name: "Docuprint",
         img: Docuprint,
-        url: "https://sell2ship.com"
+        url: "https://www.docuprint.com.ar/"
     },
     {
         name: "De-ventas",
-        img: De-ventas,
-        url: "https://pickit.com.ar/pickit-para-ecommerce.html?utm_source=google&utm_source=adwords&utm_medium=cpa&utm_medium=ppc&utm_campaign=sellers&utm_campaign=&utm_content=pickit&utm_term=pickit&ctf_src=g&ctf_net=adwords&ctf_mt=b&ctf_grp=159762670018&ctf_ver=1&ctf_cam=21002735190&ctf_kw=pickit&ctf_acc=6727245662&ctf_ad=690354960933&ctf_tgt=kwd-271332333&gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphnHOmMUbsiWOcbtGJ0LJtD-EKB6U8pz6vVKjDmkRXMvV2Isah5aGYMaAiXYEALw_wcB"
-    },
-    {
-        name: "Color-Sublime",
-        img: Color-Sublime,
-        url: "https://sell2ship.com"
-    },
-    {
-        name: "X-plode",
-        img: X-plode,
-        url: "https://pickit.com.ar/pickit-para-ecommerce.html?utm_source=google&utm_source=adwords&utm_medium=cpa&utm_medium=ppc&utm_campaign=sellers&utm_campaign=&utm_content=pickit&utm_term=pickit&ctf_src=g&ctf_net=adwords&ctf_mt=b&ctf_grp=159762670018&ctf_ver=1&ctf_cam=21002735190&ctf_kw=pickit&ctf_acc=6727245662&ctf_ad=690354960933&ctf_tgt=kwd-271332333&gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphnHOmMUbsiWOcbtGJ0LJtD-EKB6U8pz6vVKjDmkRXMvV2Isah5aGYMaAiXYEALw_wcB"
-    },
-    {
-        name: "Carol",
-        img: Carol,
-        url: "https://pickit.com.ar/pickit-para-ecommerce.html?utm_source=google&utm_source=adwords&utm_medium=cpa&utm_medium=ppc&utm_campaign=sellers&utm_campaign=&utm_content=pickit&utm_term=pickit&ctf_src=g&ctf_net=adwords&ctf_mt=b&ctf_grp=159762670018&ctf_ver=1&ctf_cam=21002735190&ctf_kw=pickit&ctf_acc=6727245662&ctf_ad=690354960933&ctf_tgt=kwd-271332333&gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphnHOmMUbsiWOcbtGJ0LJtD-EKB6U8pz6vVKjDmkRXMvV2Isah5aGYMaAiXYEALw_wcB"
+        img: DeVentas,
+        url: "https://deventas.com/"
     }
+    // {
+    //     name: "Color-Sublime",
+    //     img: ColorSublime,
+    //     url: "https://www.google.com/aclk?sa=l&ai=DChcSEwjbzd2NifCFAxVZQUgAHeefCWUYABABGgJjZQ&ase=2&gclid=CjwKCAjw88yxBhBWEiwA7cm6pWqFkjyjxC5LhoPMwerfHFRCN2_5iPkejcRQUp6c3tjkwQhKWtc2jBoCHyMQAvD_BwE&ei=DBs0ZuFElobh1Q-M4r2YDg&sig=AOD64_0ofZyLLaqCaE7fq0a1Ia39jILBtA&q&sqi=2&nis=4&adurl&ved=2ahUKEwjh-s-NifCFAxUWQ7gEHQxxD-MQ0Qx6BAgPEAE"
+    // },
+    // {
+    //     name: "Carol",
+    //     img: Carol,
+    //     url: "https://www.caroloficial.com.ar/listado/hogar-muebles-jardin/bazar-cocina/"
+    // }
    
 ];
 
